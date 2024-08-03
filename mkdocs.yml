@@ -1,0 +1,33 @@
+---
+site_name: C Tutorial
+theme:
+  name: material
+  language: en
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.expand
+extra_css:
+  - styles.css
+plugins:
+  - search
+  - drawio-exporter:
+      cache_dir: "assets/drawio-exporter"
+      embed_format: "{img_open}{img_src}\" width=\"100%\" height=\"auto{img_close}"
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
+nav:
+  - About this tutorial: index.md
+  - Introduction:
+      - About programming: introduction/about-programming.md
+      - About the C programming language: introduction/about-c.md
+      - Preparing the environment: introduction/environment.md
+  - Basic Input/Output:
+      - Showing a message to the user: basic-io/01-showing-a-message.md
+copyright: <p style="display:flex;align-items:middle" xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://lhsantos.github.io/c-tutorial/">The C Tutorial</a>&nbsp;by&nbsp;<a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/lhsantos">Luciano Santos</a>&nbsp;is licensed under&nbsp;<a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="margin-left:3px;display:inline-flex;align-items:middle">CC BY-SA 4.0<img style="height:1.5em!important;margin-left:3px;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:1.5em!important;margin-left:3px;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:1.5em!important;margin-left:3px;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
