@@ -1,0 +1,45 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Page-1" id="OG9BTvCCsHkbAwrGS6bM">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NzryKnhzQ9Qeah7yjg4x-3" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="230" y="650" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NzryKnhzQ9Qeah7yjg4x-4" value="&lt;span style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;, Courier, monospace; font-size: 9px; background-color: rgb(251, 251, 251);&quot;&gt;&lt;font color=&quot;#a31515&quot;&gt;int&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Lucida Console&amp;quot;, Courier, monospace; font-size: 9px; background-color: rgb(255, 255, 255);&quot;&gt; a = 1&lt;/span&gt;;&lt;br&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: &amp;quot;Lucida Console&amp;quot;, Courier, monospace; background-color: rgb(251, 251, 251);&quot;&gt;&lt;font color=&quot;#a31515&quot;&gt;int&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: &amp;quot;Lucida Console&amp;quot;, Courier, monospace; background-color: rgb(255, 255, 255);&quot;&gt; b = &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: &amp;quot;Lucida Console&amp;quot;, Courier, monospace; background-color: rgb(251, 251, 251);&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: &amp;quot;Lucida Console&amp;quot;, Courier, monospace; background-color: rgb(255, 255, 255);&quot;&gt;;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Lucida Console&amp;quot;, Courier, monospace; font-size: 9px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Lucida Console&amp;quot;, Courier, monospace; font-size: 9px; background-color: rgb(255, 255, 255);&quot;&gt;printf(&quot;%d&quot;, a + b);&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;fontColor=#333333;strokeColor=#000000;fontFamily=Lucida Console;fontSize=9;perimeterSpacing=0;labelPadding=9;spacingLeft=2;" parent="NzryKnhzQ9Qeah7yjg4x-3" vertex="1">
+          <mxGeometry y="30" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NzryKnhzQ9Qeah7yjg4x-5" value="&lt;i style=&quot;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;source code&lt;/font&gt;&lt;/i&gt;&lt;br&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;b&gt;hello.c&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="NzryKnhzQ9Qeah7yjg4x-3" vertex="1">
+          <mxGeometry x="26.25" y="-10" width="87.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="NzryKnhzQ9Qeah7yjg4x-6" value="" style="endArrow=block;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="NzryKnhzQ9Qeah7yjg4x-4" target="NzryKnhzQ9Qeah7yjg4x-8" edge="1">
+          <mxGeometry y="10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="734" as="sourcePoint" />
+            <mxPoint x="440" y="684" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NzryKnhzQ9Qeah7yjg4x-8" value="&lt;i&gt;compiler&lt;/i&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="400" y="685" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NzryKnhzQ9Qeah7yjg4x-10" value="" style="endArrow=block;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="NzryKnhzQ9Qeah7yjg4x-8" target="NzryKnhzQ9Qeah7yjg4x-14" edge="1">
+          <mxGeometry y="10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="487.01" y="755.52" as="sourcePoint" />
+            <mxPoint x="600" y="704" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NzryKnhzQ9Qeah7yjg4x-13" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="500" y="650" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NzryKnhzQ9Qeah7yjg4x-14" value="&lt;div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot; face=&quot;Lucida Console, Courier, monospace&quot;&gt;00100001000011110101&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot; face=&quot;Lucida Console, Courier, monospace&quot;&gt;11011111110100010011&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot; face=&quot;Lucida Console, Courier, monospace&quot;&gt;01100011000111011100&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot; face=&quot;Lucida Console, Courier, monospace&quot;&gt;10111001001100011100&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot; face=&quot;Lucida Console, Courier, monospace&quot;&gt;00111001111010100110&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;fontColor=#333333;strokeColor=#000000;fontFamily=Lucida Console;fontSize=9;perimeterSpacing=0;labelPadding=9;spacingLeft=2;" parent="NzryKnhzQ9Qeah7yjg4x-13" vertex="1">
+          <mxGeometry x="10" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NzryKnhzQ9Qeah7yjg4x-15" value="&lt;i style=&quot;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;executable file&lt;/font&gt;&lt;/i&gt;&lt;br&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;b&gt;hello.exe&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="NzryKnhzQ9Qeah7yjg4x-13" vertex="1">
+          <mxGeometry x="10" y="-10" width="120" height="33" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

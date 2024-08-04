@@ -12,7 +12,7 @@
         <link rel="prev" href="../about-programming/">
       
       
-        <link rel="next" href="../environment/">
+        <link rel="next" href="../setup/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>About the C programming language - C Tutorial</title>
+        <title>About C - C Tutorial</title>
       
     
     
@@ -63,6 +63,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#why-use-c" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -95,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              About the C programming language
+              About C
             
           </span>
         </div>
@@ -168,7 +173,9 @@
 
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="C Tutorial" class="md-nav__button md-logo" aria-label="C Tutorial" data-md-component="logo">
       
@@ -267,21 +274,104 @@
   
   
   
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    About programming in C
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            About programming in C
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
     <li class="md-nav__item md-nav__item--active">
       
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    About C
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    About the C programming language
+    About C
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-use-c" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why use C?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#developing-in-c" class="md-nav__link">
+    <span class="md-ellipsis">
+      Developing in C
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -295,15 +385,23 @@
   
   
     <li class="md-nav__item">
-      <a href="../environment/" class="md-nav__link">
+      <a href="../setup/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Preparing the environment
+    Environment setup
   </span>
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -388,22 +486,6 @@
               </div>
             
             
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           
             <div class="md-content" data-md-component="content">
@@ -412,9 +494,36 @@
                   
 
 
-  <h1>About the C programming language</h1>
+  <h1>About C</h1>
 
-
+<p>The <a href="https://en.wikipedia.org/wiki/C_(programming_language)" rel="noopener noreferrer" target="_blank">C Programming Language</a> was created in 1972 by Computer Science legend Dennis Ritchie at Bell Labs, and went on to become one of the most used languages of all time, while also being extremelly influential over languages that came after it.</p>
+<p>At the time when C was created, there were very few <a href="../about-programming/#abstraction-levels">high level languages</a> available. Most programs were written using <em>assembly language</em>, which is little more than a textual representation of binary code, and requires the programmer to completely control the <em>memory layout</em> &mdash; <em>i.e.</em>, how each byte of memory is used &mdash; of the program and to understand how the <em>machine instructions</em> work in great detail. Even advanced programmers who had such skills would still suffer from the effort-intensive and error-prone process of writing down long lists of commands which are so close to the hardware. To address this issue and facilitate the development of the then emerging Unix operating system (which later would be the basis to the creation of Linux, FreeBSD and MacOS, among other modern operating systems), Dennis Ritchie created C and designed it to be a "high level assembly".</p>
+<p>Basically, C offers features of <em>high level</em> languages &mdash; such as built-in <strong><em>data types</em></strong> that can be composed and manipulated conveniently instead of manually organizing the memory; <strong><em>variables</em></strong> and <strong><em>expressions</em></strong> to easily express calculations; and <strong><em>functions</em></strong> (blocks of commands with a name), which enables improving the code organization by using  <em>modularization</em> and <em>layers of abstractions</em> &mdash;, while still offering <em>low level</em> operations, such as referring to a memory locations directly.</p>
+<h2 id="why-use-c">Why use C?</h2>
+<p>Its characteristics made C ideal as a language for <a href="https://en.wikipedia.org/wiki/Systems_programming" target="_blank" rel="noopener noreferrer">systems programming</a>, which is the development of software that handles the hardware directly, such as <em>operating systems</em>, <em>device drivers</em> and <em>embedded software</em>. Writing the Unix source code in C made it much easier to <em>port</em> it to many environments &mdash; <em>i.e.</em>, as long as there is a C <a href="../about-programming/">translator</a> for the target environment, the code could still work with little modification even if the machine instructions were different.</p>
+<p>Additionally, because C syntax is so close to machine instructions, it is relatively easy to create a C translator (when compared to other languages), and it can be highly optimized to best use the resources available on the target hardware. For this reason, the other major use case of the C Language is for the development of <strong><em>software libraries</em></strong>, <em>i.e.</em> bundles of small utility code that can be integrated into new applications to speed up performance critical operations, such as <em>video/image processing</em>, <em>cryptography</em>, <em>networking</em>, calculation intensive <em>simulations</em>, among others. This is also the reason why <em>video games</em> are usually written using C or its sister, <code>C++</code>, which has similar features.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>C is such a widely supported and efficient language that it is most common that higher level languages &mdash; such as <code>Java</code>, <code>JavaScript</code>, <code>Pyhton</code>, <code>C#</code>, among many others &mdash; implement their <strong><em>standard libraries</em></strong>, <em>i.e</em>, the built-in software libraries available by default to the programmer, using C, and make it available by using "wrappers" that execute the optimized C code behind the scenes. This is also a common strategy for non-standard libraries created by the community of programmers that use these high level languages.</p>
+</div>
+<h2 id="developing-in-c">Developing in C</h2>
+<p>C is a <a href="../about-programming/#types-of-translators">compiled language</a>. This means that you need a compiler installed on your machine before you can write any programs. Although there are probably hundreds of C compilers available, there are 3 that are most commonly used:</p>
+<ul>
+<li><a href="https://gcc.gnu.org/" target="_blank" rel="noopener noreferrer">"Gnu Compiler Collection" (GCC)</a></li>
+<li><a href="https://clang.llvm.org/" target="_blank" rel="noopener noreferrer">Clang</a>,</li>
+<li><a href="https://docs.microsoft.com/en-us/cpp/" target="_blank" rel="noopener noreferrer">"Microsoft Visual C++" (MSVC)</a>.</li>
+</ul>
+<p>MSVC is available for Windows only, but GCC and Clang are available for Linux, MacOS, and Windows. The <a href="../setup/">next section</a> explains how to prepare your environment to use each of these compilers. In this tutorial, we will use only a <a href="https://en.wikipedia.org/wiki/C23_(C_standard_revision)" target="_blank" rel="noopener noreferrer">standard version of C</a>, so there is no practical difference between these compilers with regards to the code, but there is a different way of <em>invoking</em> the compiler, <em>i.e</em>, actually executing it to read source code and generate executable files. Select your compiler's tab on each code example, and the proper command will be shown.</p>
+<p>For the simplest case, when we have a <em>single source file</em> that we want to compile, the compilation process is quite simple (<strong>Fig 1</strong>). However, as applications become more complex, it becomes necessary to split our code into <em>multiple source files</em>, and to use third party <em>libraries</em> that provide some functionalities that can't or don't want ot implement ourselves. In the case, the compilation process becomes increasingly more complex, and takes many steps (<strong>Fig 2</strong>). Right now, we won't worry about this case. Much later in the tutorial, we will explain how you can organize your code to use many files, and how to compile it correctly in that case.</p>
+<p>For now, move on to the <a href="../setup/">next section</a>, set up your environment, and have a nice journey!</p>
+<figure style="width:50%">
+  <img alt="" src="../../assets/compile-c-simple.drawio-0.svg" width="100%" height="auto" />
+  <figcaption>Fig. 1 - Compiling a C program (simple case).</figcaption>
+</figure>
+<figure style="width:60%">
+  <img alt="" src="../../assets/compile-c-complex.drawio-0.svg" width="100%" height="auto" />
+  <figcaption>Fig. 2 - Compiling a C program (complex case).</figcaption>
+</figure>
 
 
 
@@ -438,6 +547,46 @@
       </main>
       
         <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../about-programming/" class="md-footer__link md-footer__link--prev" aria-label="Previous: About programming">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                About programming
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../setup/" class="md-footer__link md-footer__link--next" aria-label="Next: Environment setup">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Environment setup
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -465,7 +614,7 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.expand"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.expand", "navigation.header", "navigation.footer", "toc.integrate"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
