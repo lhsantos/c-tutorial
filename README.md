@@ -1,8 +1,8 @@
 ## C Tutorial
 
-This is a C language study guide, written using Markdown and rendered as a web site.
+This is a C language study guide, written using Markdown and rendered as a web site. This is the mkdocs source code! To access the tutorial, go to: https://lhsantos.github.io/c-tutorial/
 
-This is the mkdocs source code! To access the tutorial, go to: https://lhsantos.github.io/c-tutorial/
+⚠️ This is a work in progress! If you want to contribute, please open an issue or a pull request.
 
 This project uses [drawio](https://www.drawio.com/). If you do not have drawio installed:
   - Install from https://github.com/jgraph/drawio-desktop/releases
